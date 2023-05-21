@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		BB0A4B632A1A8D87000C494F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A4B622A1A8D87000C494F /* AppDelegate.swift */; };
 		BB0A4B652A1A8D87000C494F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A4B642A1A8D87000C494F /* SceneDelegate.swift */; };
-		BB0A4B672A1A8D87000C494F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A4B662A1A8D87000C494F /* ViewController.swift */; };
+		BB0A4B672A1A8D87000C494F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A4B662A1A8D87000C494F /* MainViewController.swift */; };
 		BB0A4B6C2A1A8D89000C494F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0A4B6B2A1A8D89000C494F /* Assets.xcassets */; };
 		BB0A4B6F2A1A8D89000C494F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0A4B6D2A1A8D89000C494F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		BB0A4B5F2A1A8D87000C494F /* UIKit Marathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit Marathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0A4B622A1A8D87000C494F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB0A4B642A1A8D87000C494F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB0A4B662A1A8D87000C494F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB0A4B662A1A8D87000C494F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BB0A4B6B2A1A8D89000C494F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB0A4B6E2A1A8D89000C494F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0A4B702A1A8D89000C494F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,14 +54,30 @@
 		BB0A4B612A1A8D87000C494F /* UIKit Marathon */ = {
 			isa = PBXGroup;
 			children = (
-				BB0A4B622A1A8D87000C494F /* AppDelegate.swift */,
-				BB0A4B642A1A8D87000C494F /* SceneDelegate.swift */,
-				BB0A4B662A1A8D87000C494F /* ViewController.swift */,
-				BB0A4B6B2A1A8D89000C494F /* Assets.xcassets */,
-				BB0A4B6D2A1A8D89000C494F /* LaunchScreen.storyboard */,
-				BB0A4B702A1A8D89000C494F /* Info.plist */,
+				BBA4FD122A1A8EFC0015E257 /* Application */,
+				BBA4FD132A1A8F170015E257 /* Resources */,
+				BB0A4B662A1A8D87000C494F /* MainViewController.swift */,
 			);
 			path = "UIKit Marathon";
+			sourceTree = "<group>";
+		};
+		BBA4FD122A1A8EFC0015E257 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BB0A4B622A1A8D87000C494F /* AppDelegate.swift */,
+				BB0A4B642A1A8D87000C494F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BBA4FD132A1A8F170015E257 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB0A4B6B2A1A8D89000C494F /* Assets.xcassets */,
+				BB0A4B702A1A8D89000C494F /* Info.plist */,
+				BB0A4B6D2A1A8D89000C494F /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0A4B672A1A8D87000C494F /* ViewController.swift in Sources */,
+				BB0A4B672A1A8D87000C494F /* MainViewController.swift in Sources */,
 				BB0A4B632A1A8D87000C494F /* AppDelegate.swift in Sources */,
 				BB0A4B652A1A8D87000C494F /* SceneDelegate.swift in Sources */,
 			);
@@ -277,7 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SF69972TN6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UIKit Marathon/Info.plist";
+				INFOPLIST_FILE = "UIKit Marathon/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -304,7 +320,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SF69972TN6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UIKit Marathon/Info.plist";
+				INFOPLIST_FILE = "UIKit Marathon/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
