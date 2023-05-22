@@ -79,14 +79,22 @@
 			isa = PBXGroup;
 			children = (
 				BBA4FD122A1A8EFC0015E257 /* Application */,
+				BB52CC552A1BA8B7002DDCAD /* Main */,
 				BBA4FD132A1A8F170015E257 /* Resources */,
 				BBAAB0022A1B4F1900EF754A /* TasksTxt */,
+			);
+			path = "UIKit Marathon";
+			sourceTree = "<group>";
+		};
+		BB52CC552A1BA8B7002DDCAD /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				BB0A4B662A1A8D87000C494F /* MainViewController.swift */,
 				BBA4FD142A1A9A8E0015E257 /* MainCollectionViewCell.swift */,
 				BB7B527C2A1AA8FB00A12B5A /* Tasks.swift */,
 				BBAAAFFA2A1B3ED100EF754A /* TaskModel.swift */,
 			);
-			path = "UIKit Marathon";
+			path = Main;
 			sourceTree = "<group>";
 		};
 		BBA4FD122A1A8EFC0015E257 /* Application */ = {
