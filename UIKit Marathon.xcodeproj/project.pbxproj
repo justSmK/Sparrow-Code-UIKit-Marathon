@@ -12,6 +12,13 @@
 		BB0A4B672A1A8D87000C494F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A4B662A1A8D87000C494F /* MainViewController.swift */; };
 		BB0A4B6C2A1A8D89000C494F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0A4B6B2A1A8D89000C494F /* Assets.xcassets */; };
 		BB0A4B6F2A1A8D89000C494F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0A4B6D2A1A8D89000C494F /* LaunchScreen.storyboard */; };
+		BB52CC482A1BA52C002DDCAD /* Task3Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB52CC472A1BA52C002DDCAD /* Task3Text.txt */; };
+		BB52CC4A2A1BA539002DDCAD /* Task4Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB52CC492A1BA539002DDCAD /* Task4Text.txt */; };
+		BB52CC4C2A1BA54C002DDCAD /* Task5Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB52CC4B2A1BA54C002DDCAD /* Task5Text.txt */; };
+		BB52CC4E2A1BA552002DDCAD /* Task6Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB52CC4D2A1BA552002DDCAD /* Task6Text.txt */; };
+		BB52CC502A1BA557002DDCAD /* Task7Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB52CC4F2A1BA557002DDCAD /* Task7Text.txt */; };
+		BB52CC522A1BA55B002DDCAD /* Task8Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB52CC512A1BA55B002DDCAD /* Task8Text.txt */; };
+		BB52CC542A1BA561002DDCAD /* Task9Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB52CC532A1BA561002DDCAD /* Task9Text.txt */; };
 		BB7B527D2A1AA8FB00A12B5A /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B527C2A1AA8FB00A12B5A /* Tasks.swift */; };
 		BBA4FD152A1A9A8F0015E257 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4FD142A1A9A8E0015E257 /* MainCollectionViewCell.swift */; };
 		BBAAAFFB2A1B3ED100EF754A /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAAAFFA2A1B3ED100EF754A /* TaskModel.swift */; };
@@ -27,6 +34,13 @@
 		BB0A4B6B2A1A8D89000C494F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB0A4B6E2A1A8D89000C494F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0A4B702A1A8D89000C494F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB52CC472A1BA52C002DDCAD /* Task3Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task3Text.txt; sourceTree = "<group>"; };
+		BB52CC492A1BA539002DDCAD /* Task4Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task4Text.txt; sourceTree = "<group>"; };
+		BB52CC4B2A1BA54C002DDCAD /* Task5Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task5Text.txt; sourceTree = "<group>"; };
+		BB52CC4D2A1BA552002DDCAD /* Task6Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task6Text.txt; sourceTree = "<group>"; };
+		BB52CC4F2A1BA557002DDCAD /* Task7Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task7Text.txt; sourceTree = "<group>"; };
+		BB52CC512A1BA55B002DDCAD /* Task8Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task8Text.txt; sourceTree = "<group>"; };
+		BB52CC532A1BA561002DDCAD /* Task9Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task9Text.txt; sourceTree = "<group>"; };
 		BB7B527C2A1AA8FB00A12B5A /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		BBA4FD142A1A9A8E0015E257 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		BBAAAFFA2A1B3ED100EF754A /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
@@ -99,6 +113,13 @@
 			children = (
 				BBAAB00A2A1B50BF00EF754A /* Task1Text.txt */,
 				BBAAB0072A1B507A00EF754A /* Task2Text.txt */,
+				BB52CC472A1BA52C002DDCAD /* Task3Text.txt */,
+				BB52CC492A1BA539002DDCAD /* Task4Text.txt */,
+				BB52CC4B2A1BA54C002DDCAD /* Task5Text.txt */,
+				BB52CC4D2A1BA552002DDCAD /* Task6Text.txt */,
+				BB52CC4F2A1BA557002DDCAD /* Task7Text.txt */,
+				BB52CC512A1BA55B002DDCAD /* Task8Text.txt */,
+				BB52CC532A1BA561002DDCAD /* Task9Text.txt */,
 			);
 			path = TasksTxt;
 			sourceTree = "<group>";
@@ -161,10 +182,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB52CC542A1BA561002DDCAD /* Task9Text.txt in Resources */,
+				BB52CC482A1BA52C002DDCAD /* Task3Text.txt in Resources */,
 				BBAAB00B2A1B598D00EF754A /* Task1Text.txt in Resources */,
 				BBAAB0082A1B507A00EF754A /* Task2Text.txt in Resources */,
+				BB52CC4C2A1BA54C002DDCAD /* Task5Text.txt in Resources */,
+				BB52CC4A2A1BA539002DDCAD /* Task4Text.txt in Resources */,
+				BB52CC522A1BA55B002DDCAD /* Task8Text.txt in Resources */,
 				BB0A4B6F2A1A8D89000C494F /* LaunchScreen.storyboard in Resources */,
+				BB52CC502A1BA557002DDCAD /* Task7Text.txt in Resources */,
 				BB0A4B6C2A1A8D89000C494F /* Assets.xcassets in Resources */,
+				BB52CC4E2A1BA552002DDCAD /* Task6Text.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

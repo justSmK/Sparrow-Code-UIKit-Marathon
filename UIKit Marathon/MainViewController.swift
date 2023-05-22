@@ -69,8 +69,8 @@ class MainViewController: UIViewController {
         var arrayOfNames = [String]()
         
         // FIXME: Change count of files
-        #warning("Write count of files")
-        for i in 1...2 {
+//        #warning("Write count of files")
+        for i in 1...9 {
             let fileName = "Task\(i)Text"
             arrayOfNames.append(fileName)
         }
@@ -149,7 +149,7 @@ extension MainViewController: UICollectionViewDelegateFlowLayout {
         case 1:
             return CGSize(width: width, height: height / 2)
         default:
-            return CGSize(width: width, height: 100)
+            return CGSize(width: width, height: height / 2)
         }
     }
 }
