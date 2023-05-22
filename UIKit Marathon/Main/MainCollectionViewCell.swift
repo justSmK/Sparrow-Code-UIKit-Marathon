@@ -20,9 +20,9 @@ class MainCollectionViewCell: UICollectionViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 0
-        label.isHighlighted = true
-        label.highlightedTextColor = .brown
-        
+//        label.isHighlighted = true
+//        label.highlightedTextColor = .brown
+        label.textAlignment = .center
         return label
     }()
     
@@ -30,9 +30,9 @@ class MainCollectionViewCell: UICollectionViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 0
-        label.font = .monospacedDigitSystemFont(ofSize: 18, weight: .medium)
+//        label.font = .monospacedDigitSystemFont(ofSize: 18, weight: .medium)
         label.textColor = .black
-        label.textAlignment = .natural
+//        label.textAlignment = .natural
 //        label.sizeToFit()
         return label
     }()
@@ -58,18 +58,20 @@ class MainCollectionViewCell: UICollectionViewCell {
     private func setupLayout() {
         contentView.addSubview(labelTitle)
         NSLayoutConstraint.activate([
-            labelTitle.topAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.topAnchor),
-            labelTitle.leadingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.leadingAnchor),
-            labelTitle.trailingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.trailingAnchor),
+            labelTitle.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),
+            labelTitle.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            labelTitle.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
 //            labelTitle.bottomAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.bottomAnchor)
+            labelTitle.heightAnchor.constraint(equalToConstant: 50)
         ])
         
         contentView.addSubview(labelContent)
         NSLayoutConstraint.activate([
-            labelContent.topAnchor.constraint(equalTo: labelTitle.safeAreaLayoutGuide.bottomAnchor),
-            labelContent.leadingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.leadingAnchor),
-            labelContent.trailingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.trailingAnchor),
-            labelContent.bottomAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.bottomAnchor)
+            labelContent.topAnchor.constraint(equalTo: labelTitle.bottomAnchor),
+            labelContent.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10),
+            labelContent.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
+            labelContent.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
+//            labelContent.heightAnchor.constraint(equalToConstant: 500)
         ])
     }
     

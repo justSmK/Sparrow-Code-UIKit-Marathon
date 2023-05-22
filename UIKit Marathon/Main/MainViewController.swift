@@ -30,13 +30,14 @@ class MainViewController: UIViewController {
         
         
 //        collectionView.backgroundColor = .systemBackground
-//        collectionViewFlowLayout.scrollDirection = .vertical
+        collectionViewFlowLayout.scrollDirection = .vertical
         collectionView.register(
             MainCollectionViewCell.self,
             forCellWithReuseIdentifier: MainCollectionViewCell.identifier
         )
         
 //        collectionViewFlowLayout.minimumLineSpacing = 100
+        
         
         return collectionView
     }()
@@ -133,23 +134,27 @@ extension MainViewController: UICollectionViewDataSource {
     
 }
 
+// MARK: - UICollectionViewDelegateFlowLayout
+
 extension MainViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
+
+        return CGSize(width: 300, height: 400)
+
         guard let width = view.window?.windowScene?.screen.bounds.width,
               let height = view.window?.windowScene?.screen.bounds.height
         else {
             return .zero
         }
-        
-        
+
+
         switch indexPath.item {
         case 0:
             return CGSize(width: width, height: height / 2)
         case 1:
             return CGSize(width: width, height: height / 2)
         default:
-            return CGSize(width: width, height: height / 2)
+            return CGSize(width: width - 20, height: height / 2)
         }
     }
 }
