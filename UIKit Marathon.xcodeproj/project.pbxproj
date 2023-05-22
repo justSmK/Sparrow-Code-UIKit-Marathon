@@ -19,7 +19,6 @@
 		BB52CC502A1BA557002DDCAD /* Task7Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB52CC4F2A1BA557002DDCAD /* Task7Text.txt */; };
 		BB52CC522A1BA55B002DDCAD /* Task8Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB52CC512A1BA55B002DDCAD /* Task8Text.txt */; };
 		BB52CC542A1BA561002DDCAD /* Task9Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB52CC532A1BA561002DDCAD /* Task9Text.txt */; };
-		BB7B527D2A1AA8FB00A12B5A /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B527C2A1AA8FB00A12B5A /* Tasks.swift */; };
 		BBA4FD152A1A9A8F0015E257 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4FD142A1A9A8E0015E257 /* MainCollectionViewCell.swift */; };
 		BBAAAFFB2A1B3ED100EF754A /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAAAFFA2A1B3ED100EF754A /* TaskModel.swift */; };
 		BBAAB0082A1B507A00EF754A /* Task2Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = BBAAB0072A1B507A00EF754A /* Task2Text.txt */; };
@@ -41,7 +40,6 @@
 		BB52CC4F2A1BA557002DDCAD /* Task7Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task7Text.txt; sourceTree = "<group>"; };
 		BB52CC512A1BA55B002DDCAD /* Task8Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task8Text.txt; sourceTree = "<group>"; };
 		BB52CC532A1BA561002DDCAD /* Task9Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task9Text.txt; sourceTree = "<group>"; };
-		BB7B527C2A1AA8FB00A12B5A /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		BBA4FD142A1A9A8E0015E257 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		BBAAAFFA2A1B3ED100EF754A /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		BBAAB0072A1B507A00EF754A /* Task2Text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task2Text.txt; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 			children = (
 				BB0A4B662A1A8D87000C494F /* MainViewController.swift */,
 				BBA4FD142A1A9A8E0015E257 /* MainCollectionViewCell.swift */,
-				BB7B527C2A1AA8FB00A12B5A /* Tasks.swift */,
 				BBAAAFFA2A1B3ED100EF754A /* TaskModel.swift */,
 			);
 			path = Main;
@@ -215,7 +212,6 @@
 				BB0A4B672A1A8D87000C494F /* MainViewController.swift in Sources */,
 				BB0A4B632A1A8D87000C494F /* AppDelegate.swift in Sources */,
 				BB0A4B652A1A8D87000C494F /* SceneDelegate.swift in Sources */,
-				BB7B527D2A1AA8FB00A12B5A /* Tasks.swift in Sources */,
 				BBA4FD152A1A9A8F0015E257 /* MainCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
